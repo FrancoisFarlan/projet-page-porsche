@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Polices Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Roboto&display=swap"
+    rel="stylesheet">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Porsche - Le Mans</title>
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">911 GT3 RS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Configurateur</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Header-->
+      <header>
+        <h1>Porsche Le Mans</h1>
+        <img src="media/logo.jpg" alt="Logo du site Porsche Le mans" title="Porsche Le mans"/>
+      </header>
+
+      <!--Main-->
+      <main class="container">
+
+        <!--carousel-->
+        <section id="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="media/caroussel/porsche_caroussel_1.jpg" class="d-block w-100" alt="image d'un ingénieur à l'oeuvre" title="image d'un ingénieur à l'oeuvre">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/caroussel/porsche_caroussel_2.jpg" class="d-block w-100" alt="image des locaux Porsche Le Mans" title="image des locaux Porsche Le Mans">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/caroussel/porsche_caroussel_3.jpg" class="d-block w-100" alt="logo du modèle taycan" title="logo du modèle taycan">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <!--section à découvrir-->
+        <section id="a-decouvrir" class="text-center">
+            <h2>A découvrir</h2>
+            <a href="#" class="d-block">Porsche 911 GT3 RS</a>
+            <a href="#" class="d-block"><img src="media/model_911_gt3_rs/porsche_verte_portfolio_1.jpg" alt="Image de la Porsche 911 GT3 RS"></a>
+
+        </section>
+
+        <!--section site du Mans-->
+        <section id="site-le-mans">
+            <h2>Notre concession du mans</h2>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class="d-block w-100"src="media/caroussel/porsche_caroussel_2.jpg" alt="Image de notre concession du mans" title="Image de notre concession du mans">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17979.84128835793!2d0.1850557588848013!3d47.941811243936954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e28fb34ccb66ef%3A0xaa8b8dace926011e!2sPorsche+Experience+Center+Le+Mans!5e0!3m2!1sfr!2sfr!4v1537444839301" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+      </main>
+
+    <!-- JavaScript Bundle Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
